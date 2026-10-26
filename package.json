@@ -1,0 +1,20 @@
+{
+  "name": "meal-planner",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "mobile": "npm run start -w @mealplanner/mobile",
+    "api": "npm run dev -w @mealplanner/api",
+    "test": "npm run test -w @mealplanner/core",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "~6.0.3"
+  }
+}

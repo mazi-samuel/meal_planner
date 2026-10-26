@@ -1,0 +1,15 @@
+{
+  "name": "@mealplanner/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Node.js (TypeScript) backend exposing the meal engine and Chowdeck link builder over HTTP.",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@mealplanner/core": "*"
+  }
+}

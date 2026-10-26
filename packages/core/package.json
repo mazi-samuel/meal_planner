@@ -1,0 +1,12 @@
+{
+  "name": "@mealplanner/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Platform-agnostic domain models, Lagos meal catalog, planning engine and Chowdeck link builders.",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  }
+}
